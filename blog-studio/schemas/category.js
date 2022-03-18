@@ -7,11 +7,15 @@ export default {
       name: 'title',
       title: 'Title',
       type: 'string',
+      of: [{type: 'reference', to: {type: 'post'}}],
+
     },
-    {
-      name: 'description',
-      title: 'Description',
-      type: 'text',
-    },
+    
+    // {
+    //   name: 'description',
+    //   title: 'Description',
+    //   type: 'text',
+    // },
+ 
   ],
 }

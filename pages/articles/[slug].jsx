@@ -4,6 +4,7 @@ import {
   usePreviewSubscription,
   PortableText,
 } from '../../lib/sanity'
+// console.log('urlFor: ', urlFor);
 
 // mainImage {
 //     asset-> {
@@ -43,10 +44,11 @@ const fetchOnePost = ({ data }) => {
   console.log('posts: ', posts);
 
   return (
-    <article className=''>
-      <h1>{post.author.name}</h1>
-      <main className='bg-gray-100 m-2 text-gray-700'>
-        <img />
+    <article className='max-w-2xl ml-36'>
+      <h2 className='pl-2 sm:pl-4 font-bold'> written by: <span className='font-normal underline italic'>{post.author.name} </span></h2>
+      dummy data / copied
+      <main className='bg-gray-100 m-2 text-gray-700 rounded-md'>
+        {/* <img /> */}
 
         <article className='pl-4 pt-2 shadow-lg'>
          {posts?.map(text => (

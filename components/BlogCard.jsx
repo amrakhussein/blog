@@ -4,7 +4,7 @@ import { urlFor } from '../lib/sanity'
 export default function BlogCard({ post }) {
   return (
     <>
-      <li key={post._id} className="flex-row  bg-gray-300 rounded-lg p-2 border-2 border-pink-900 hover:border-pink-500">
+      <li key={post._id} className="mb-2 flex-row bg-gray-300 rounded-lg p-2 border-2 border-pink-900 hover:border-pink-500">
         <Link href={`/articles/${post.slug.current}`}>
           <a>
          

@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "Amr Abdelkamel <amr.shahat96@gmail.com>",
+  "author": "Amr Abdelkamel <amromoorie@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
@@ -20,6 +20,7 @@
     "@sanity/default-login": "^2.29.1",
     "@sanity/desk-tool": "^2.29.1",
     "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/image-url": "^1.0.1",
     "@sanity/vision": "^2.29.1",
     "eslint": "^8.11.0",
     "prop-types": "^15.7",
